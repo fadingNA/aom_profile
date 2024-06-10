@@ -33,7 +33,7 @@ export default function LinkTree() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center space-y-8 p-8 bg-stone-300 bg-opacity-70 rounded-lg shadow-lg">
+    <div className="flex flex-col items-center justify-center space-y-8 p-4 bg-stone-100 bg-opacity-30 rounded-lg shadow-lg">
       {links.map((link, index) => (
         <motion.a
           key={index}
