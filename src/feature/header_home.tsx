@@ -24,16 +24,11 @@ export default function BackgroundVideo() {
         </video>
       </div>
       <div className="w-full md:w-1/2 h-full relative ">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
+        <img
+          src="/aom_bg_jjpg.jpg"
+          alt="Background"
           className="absolute inset-0 w-full h-full object-cover"
-        >
-          <source src="/aom_bg_3.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        />
       </div>
       <div className="absolute inset-0 z-10 flex flex-col items-center justify-center w-full h-full bg-black bg-opacity-50">
         <h1 className="text-4xl lg:text-6xl font-bold text-white text-center">
