@@ -11,22 +11,24 @@ export default function BackgroundVideo() {
     <div
       className={`relative w-full h-screen rounded-sm overflow-hidden flex flex-col lg:flex-row ${roboto.className}`}
     >
-      <div className="w-full md:w-1/2 h-full relative">
+      <div className="w-full md:w-1/2 h-full relative hidden md:block">
         <video
           autoPlay
           loop
           muted
+          playsInline
           className="absolute inset-0 w-full h-full object-cover"
         >
           <source src="/aom_bg_1.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
-      <div className="w-full md:w-1/2 h-full relative hidden md:block">
+      <div className="w-full md:w-1/2 h-full relative ">
         <video
           autoPlay
           loop
           muted
+          playsInline
           className="absolute inset-0 w-full h-full object-cover"
         >
           <source src="/aom_bg_2.mp4" type="video/mp4" />

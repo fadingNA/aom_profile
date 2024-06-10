@@ -18,6 +18,11 @@ export default function LinkTree() {
       label: "Twitch",
       img: "/twitch-color-icon.png",
     },
+    {
+      href: "https://ngl.link/aomgoodgal",
+      label: "not gonna lie",
+      img: "/ngl-logo.png",
+    },
   ];
 
   const bounceTransition = {
