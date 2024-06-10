@@ -35,7 +35,7 @@ export default function BackgroundVideo() {
           hi there 😘
         </h1>
         <a
-          href="https://www.instagram.com/aomgoodgal/"
+          href="https://www.instagram.com/aomgoodgurl"
           target="_blank"
           className="mt-4 text-lg lg:text-2xl text-rose-200 text-center"
         >

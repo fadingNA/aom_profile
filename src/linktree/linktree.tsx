@@ -4,12 +4,12 @@ import Image from "next/image";
 export default function LinkTree() {
   const links = [
     {
-      href: "https://example1.com",
+      href: "https://www.instagram.com/aomgoodgurl",
       label: "Instagram",
       img: "/ig-instagram-icon.png",
     }, // Add image path for Instagram
     {
-      href: "https://example3.com",
+      href: "https://www.tiktok.com/@aomgoodgurl",
       label: "Tiktok",
       img: "/tiktok-square-color-icon.png",
     },
