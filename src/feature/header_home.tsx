@@ -24,8 +24,8 @@ export default function BackgroundVideo() {
         </video>
       </div>
       <div className="w-full md:w-1/2 h-full relative ">
-      <img
-          src="/IMG_8501.jpg" // Replace with the path to your photo
+        <img
+          src="/IMG_8501.jpeg" // Replace with the path to your photo
           alt="Background"
           className="absolute inset-0 w-full h-full object-cover"
         />
