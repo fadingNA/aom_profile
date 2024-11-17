@@ -10,7 +10,7 @@ export default function LinkTree() {
     }, // Add image path for Instagram
     {
       href: "https://www.tiktok.com/@aomgoodgurl",
-      label: "Tiktok",
+      label: "aomgoodgurl",
       img: "/tiktok-square-color-icon.png",
     },
     {
@@ -19,10 +19,11 @@ export default function LinkTree() {
       img: "/twitch-color-icon.png",
     },
     {
-      href: "https://ngl.link/aomgoodgal",
-      label: "not gonna lie",
-      img: "/ngl-logo.png",
+      href: "https://www.tiktok.com/@lifestylewithnp",
+      label: "liftstylewithnp",
+      img: "/tiktok-square-color-icon.png",
     },
+
   ];
 
   const bounceTransition = {
@@ -33,18 +34,18 @@ export default function LinkTree() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center space-y-8 p-4 bg-stone-100 bg-opacity-30 rounded-lg shadow-lg">
+    <div className="flex flex-col items-center justify-center space-y-8 p-4 bg-stone-100 bg-opacity-30 rounded-lg shadow-lg font-mono">
       {links.map((link, index) => (
         <motion.a
           key={index}
           href={link.href}
           target="_blank"
-          className="relative md:min-w-[500px] min-w-[300px] px-6 py-3 font-bold text-black group text-center flex items-center justify-center"
-          whileHover={{ scale: 1.05, rotate: 2 }}
+          className="relative md:min-w-[500px] min-w-[300px] px-6 py-3 font-medium text-black group text-center flex items-center justify-center"
+          whileHover={{ scale: 1.05, rotate: 1 }}
           whileTap={{ scale: 0.95 }}
-          animate={link.label === "Tiktok" ? { y: [0, -20, 0] } : undefined}
+          animate={link.label === "aomgoodgurl" ? { y: [0, -20, 10] } : undefined}
           transition={
-            link.label === "Tiktok"
+            link.label === "aomgoodgurl"
               ? bounceTransition
               : {
                   type: "spring",
@@ -54,7 +55,7 @@ export default function LinkTree() {
           }
         >
           <span className="absolute inset-0 rounded-lg w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-rose-300 group-hover:translate-x-0 group-hover:translate-y-0"></span>
-          <span className="absolute inset-0 w-full h-full border-4 border-white"></span>
+          <span className="absolute inset-0 w-full h-full border-2 rounded-md border-white"></span>
           {link.img && (
             <Image
               src={link.img}
