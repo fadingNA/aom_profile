@@ -48,7 +48,7 @@ function LinkTile(props: LinkTileProps) {
   const core = (
     <motion.div
       className={[
-        "relative w-[420px] sm:w-[420px] md:w-[500px] h-10",
+        "relative mx-auto max-w-[95%] w-[350px] sm:max-w-[420px] md:w-[500px] h-10",
         "px-6 py-3 font-medium text-black group text-center",
         "flex items-center justify-center rounded-lg whitespace-nowrap",
         "shadow-lg bg-stone-100/70 backdrop-blur",
@@ -74,9 +74,9 @@ function LinkTile(props: LinkTileProps) {
       }
     >
       {/* soft offset layer */}
-      <span className="absolute inset-0 rounded-lg w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-rose-300/80 group-hover:translate-x-0 group-hover:translate-y-0" />
+      <span className="absolute inset-0 rounded-lg  w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-rose-300/80 group-hover:translate-x-0 group-hover:translate-y-0" />
       {/* border */}
-      <span className="absolute inset-0 w-full h-full border-2 rounded-lg border-white/80" />
+      <span className="absolute inset-0 w-full  h-full border-2 rounded-lg border-white/80" />
 
       <span className="relative z-10 flex items-center justify-center gap-3 w-full">
         {/* Icon or placeholder */}
@@ -187,7 +187,7 @@ export default function LinkTree() {
   ]
 
   return (
-    <div className="flex flex-col items-center gap-4 justify-center p-4">
+    <div className="flex flex-col items-center gap-4 justify-center p-6">
       {/* Links as <a> tiles */}
       <div className="flex flex-col gap-7"> {/* increased from gap-4 to gap-6 */}
         {links.map((l, i) => (
