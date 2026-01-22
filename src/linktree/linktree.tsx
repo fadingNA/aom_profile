@@ -198,13 +198,10 @@ export default function LinkTree() {
             label={l.label}
             img={l.img}
             bounce={l.bounce}
-            mirror
+            mirror={false}
           />
         ))}
       </div>
-
-
-
     </div>
   );
 }
