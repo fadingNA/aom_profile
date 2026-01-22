@@ -13,7 +13,7 @@ const Navbar = () => {
         className={`flex justify-center items-center bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] bg-opacity-0  font-mono`}
       >
         <span className="ml-3 text-[1.5rem] md:text-[2rem] text-gray-500 text-center">
-          aomgoodgurl
+          theitsummer
         </span>
       </div>
     </>

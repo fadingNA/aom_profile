@@ -26,7 +26,7 @@ export default function BackgroundVideo() {
       </div>
       <div className="w-full md:w-1/1 h-full relative ">
         <Image
-          src="/IMG_8501.jpeg"
+          src="/aom_forest.jpg"
           alt="Background"
           layout="fill"
           className="absolute inset-0 w-full h-full object-cover"
@@ -37,11 +37,11 @@ export default function BackgroundVideo() {
           hi there 😘
         </h1>
         <a
-          href="https://www.instagram.com/aomgoodgurl"
+          href="https://www.instagram.com/theitsummer?"
           target="_blank"
           className="mt-4 text-lg lg:text-2xl text-rose-200 text-center font-mono hover:underline hover:scale-105 transition-all ease-in-out duration-300"
         >
-          @aomgoodgurl
+          @theitsummer
         </a>
         <div className="mt-8">
           <LinkTree />

@@ -164,19 +164,19 @@ export default function LinkTree() {
   const links: LinkProp[] = [
     { href: "https://porrucia.ca", label: "Porrucia" },
     {
-      href: "https://www.instagram.com/aomgoodgurl",
+      href: "https://www.instagram.com/theitsummer?",
       label: "Instagram",
       img: "/ig-instagram-icon.png",
     },
     {
       href: "https://www.tiktok.com/@aomgoodgurl",
-      label: "aomgoodgurl",
+      label: "theitsummer",
       img: "/tiktok-square-color-icon.png",
       bounce: false,
     },
     {
       href: "https://www.tiktok.com/@aomgoodgal",
-      label: "aomgoodgal",
+      label: "theitsummer2",
       img: "/tiktok-square-color-icon.png",
     },
     {
