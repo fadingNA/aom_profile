@@ -32,18 +32,18 @@ export default function BackgroundVideo() {
           className="absolute inset-0 w-full h-full object-cover"
         />
       </div>
-      <div className="absolute inset-0 z-10 flex flex-col items-center justify-center w-full h-full bg-black bg-opacity-50">
+      <div className="absolute inset-0 z-10 flex flex-col items-center justify-start md:justify-center w-full h-full bg-black bg-opacity-50 pt-10 sm:pt-14 md:pt-0">
         <h1 className="text-4xl lg:text-6xl font-bold text-white text-center font-mono">
           hi there 😘
         </h1>
         <a
           href="https://www.instagram.com/theitsummer?"
           target="_blank"
-          className="mt-4 text-lg lg:text-2xl text-rose-200 text-center font-mono hover:underline hover:scale-105 transition-all ease-in-out duration-300"
+          className="mt-1 text-lg lg:text-2xl text-rose-200 text-center font-mono hover:underline hover:scale-105 transition-all ease-in-out duration-300"
         >
           @theitsummer
         </a>
-        <div className="mt-8">
+        <div className="mt-2">
           <LinkTree />
         </div>
       </div>

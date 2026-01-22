@@ -49,7 +49,7 @@ function LinkTile(props: LinkTileProps) {
     <motion.div
       className={[
         "relative mx-auto max-w-[95%] w-[350px] sm:max-w-[420px] md:w-[500px] h-10",
-        "px-6 py-3 font-medium text-black group text-center",
+        "px-7 py-3 font-medium text-black group text-center",
         "flex items-center justify-center rounded-lg whitespace-nowrap",
         "shadow-lg bg-stone-100/70 backdrop-blur",
         "transition-transform",
@@ -85,8 +85,8 @@ function LinkTile(props: LinkTileProps) {
             <Image
               src={img}
               alt=""
-              width={22}
-              height={22}
+              width={28}
+              height={28}
               className="pointer-events-none select-none"
               priority={false}
             />
@@ -187,9 +187,9 @@ export default function LinkTree() {
   ]
 
   return (
-    <div className="flex flex-col items-center gap-4 justify-center p-6">
+    <div className="flex flex-col items-center gap-4 justify-center p-1">
       {/* Links as <a> tiles */}
-      <div className="flex flex-col gap-7"> {/* increased from gap-4 to gap-6 */}
+      <div className="flex flex-col gap-[1.4rem]"> {/* increased from gap-4 to gap-6 */}
         {links.map((l, i) => (
           <LinkTile
             key={i}
